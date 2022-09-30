@@ -25,7 +25,7 @@
     '''
 
 ### 3: Update
-'''
+    '''
     # find the user object matching the user and replace the entries of that object
     def update(self, user):
             # using find() function to find the target user object
@@ -33,12 +33,12 @@
             print(target)
             # update the info (name and email)
             target.name, target.email = user.name, user.email
-'''
+    '''
 
 ### 4: List All
-'''
+    '''
     # print the representation or list of user objects
     def list_all(self):
         return self.users
-'''
+    '''
 
