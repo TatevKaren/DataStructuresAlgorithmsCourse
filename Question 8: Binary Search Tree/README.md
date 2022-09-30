@@ -91,3 +91,29 @@ Finding an object with given username(key) while knowing also the node from wher
         if target is not None:
             target.value = value
 
+
+## 7: List All
+Getting Sorted list of key, value pairs of BST
+
+    def list_all(node):
+       if node is None:
+           return []
+       return list_all(node.left) + [(node.key, node.value)] + list_all(node.right)
+
+
+## 8: Check whether the BST is Balanced
+      def is_balanced(node):
+          # if the tree is empty than it's balanced (True) and height is 0
+          if node is None:
+             return True, 0
+
+          # whether the left subtree is balanced and what is the height
+          balanced_l, height_l = is_balanced(node.left)
+          # whether the right subtree is balanced and what is the height
+          balanced_r, height_r = is_balanced(node.right)
+
+          # if the left subtree and right subtree are balanced (True) and height difference <=1
+          balanced = balanced_l and balanced_r and abs(height_l-height_r) <=1
+          # height of the tree (max  of two heights) + 1
+          height = 1+max(height_l, height_r)
+          return balanced, height
