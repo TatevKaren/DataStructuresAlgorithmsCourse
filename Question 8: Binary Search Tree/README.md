@@ -80,4 +80,14 @@ Finding an object with given username(key) while knowing also the node from wher
       # if the key to be search is larger than the current node key --> search right
       if key > node.key:
           return find(node.right, key)
+          
+          
+## 6: Updating a value in Tree
+
+     def update(node, key, value):
+        # finding the node using the given node key
+        target = find(node,key)
+        # if not existing then we create a node
+        if target is not None:
+            target.value = value
 
