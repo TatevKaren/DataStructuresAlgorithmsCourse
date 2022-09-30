@@ -1,5 +1,6 @@
 # Binary Search Tree
 
+## 1: Checking the tree is Binary Search Tree and Min Key/Max Key
 
     from BinaryTree_Functions import TreeNode
     from BinaryTrees_introduction import User, UserDatabase
@@ -22,8 +23,10 @@
    
    
    
-# Storing Key-Value Pairs using BSTs where username is the key and user object is the value
-class BSTNode():
+## 2: Storing Key-Value Pairs using BSTs 
+where username is the key and user object is the value
+     
+     class BSTNode():
       def __init__(self, key, value = None):
           self.key = key
           self.value = value
@@ -32,21 +35,19 @@ class BSTNode():
           self.parent = None
 
 
-'''Displaying the tree'''
-def display_keys(node, space='\t', level=0):
-    # print(node.key if node else None, level)
-    # If the node is empty
-    if node is None:
-        print(space * level + '∅')
-        return
-    # If the node is a leaf
-    if node.left is None and node.right is None:
+## 3: Displaying the tree
+    def display_keys(node, space='\t', level=0):
+        if node is None:
+           print(space * level + '∅')
+           return
+            # If the node is a leaf
+        if node.left is None and node.right is None:
+            print(space * level + str(node.key))
+            return
+        # If the node has children
+        display_keys(node.right, space, level + 1)
         print(space * level + str(node.key))
-        return
-    # If the node has children
-    display_keys(node.right, space, level + 1)
-    print(space * level + str(node.key))
-    display_keys(node.left, space, level + 1)
+        display_keys(node.left, space, level + 1)
 
     
 
