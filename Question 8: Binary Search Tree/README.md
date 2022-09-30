@@ -19,4 +19,34 @@
 
     return(is_bst_node, min_key, max_key)
     
+   
+   
+   
+# Storing Key-Value Pairs using BSTs where username is the key and user object is the value
+class BSTNode():
+      def __init__(self, key, value = None):
+          self.key = key
+          self.value = value
+          self.left = None
+          self.right = None
+          self.parent = None
+
+
+'''Displaying the tree'''
+def display_keys(node, space='\t', level=0):
+    # print(node.key if node else None, level)
+    # If the node is empty
+    if node is None:
+        print(space * level + '∅')
+        return
+    # If the node is a leaf
+    if node.left is None and node.right is None:
+        print(space * level + str(node.key))
+        return
+    # If the node has children
+    display_keys(node.right, space, level + 1)
+    print(space * level + str(node.key))
+    display_keys(node.left, space, level + 1)
+
+    
 
