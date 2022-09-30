@@ -15,14 +15,14 @@
      '''
         
 ### 2: Find
-'''
+    '''
     # Loop through the list and find the user object with the given username
     def find(self, username):
         # for all user objects in users and check whether its username is equal to given username
         for user in self.users:
             if user.username == username:
                 return(user)
-'''
+    '''
 
 ### 3: Update
 '''
