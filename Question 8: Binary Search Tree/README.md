@@ -66,4 +66,18 @@ where username is the key and user object is the value
          return node
  
     
+## 5: Finding a Subject
+Finding an object with given username(key) while knowing also the node from where on we need to search
+
+  def find(node, key):
+    if node is None:
+        return None
+    if key==node.key:
+        return node
+    # if the key to be search is smaller than the current node key --> search left
+    if key < node.key:
+        return find(node.left, key)
+    # if the key to be search is larger than the current node key --> search right
+    if key > node.key:
+        return find(node.right, key)
 
