@@ -49,5 +49,21 @@ where username is the key and user object is the value
         print(space * level + str(node.key))
         display_keys(node.left, space, level + 1)
 
+## 4: Inserting a node in BST
+  def insert(node, key, value):
+         # creating a new node when left or right node is not existing
+   if node is None:
+      # we create a new subtree
+       node = BSTNode(key, value)
+   # if the new key is smaller than the node we insert it in the left subtree
+   elif key < node.key:
+       node.left = insert(node.left, key, value)
+       node.left.parent = node
+    # if the new key is larger than the node we insert in the right subtree
+   elif key > node.key:
+       node.right = insert(node.right, key, value)
+       node.right.parent = node
+   return node
+ 
     
 
