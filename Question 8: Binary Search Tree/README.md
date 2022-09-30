@@ -142,3 +142,10 @@ Getting Sorted list of key, value pairs of BST
              root.right = make_balanced_bst(data, mid+1, hi, root)
              return(root)
 
+
+## 10: Making Unbalanced Tree Balanced
+      def balance_bst(node):
+           inorder_traversal = list_all(node)
+           balanced_bst = make_balanced_bst(inorder_traversal)
+           return(balanced_bst)
+
