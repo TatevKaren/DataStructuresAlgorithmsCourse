@@ -1,12 +1,12 @@
 # Binary Search Tree
 
 '''
-   from BinaryTree_Functions import TreeNode
-   from BinaryTrees_introduction import User, UserDatabase
+    from BinaryTree_Functions import TreeNode
+    from BinaryTrees_introduction import User, UserDatabase
    
-   def is_BST(node):
-    if node is None:
-        return True, None, None
+    def is_BST(node):
+      if node is None:
+          return True, None, None
 
     # checking whether the left and right subtrees are BST
     is_bst_l, min_l, max_l = is_BST(node.left)
