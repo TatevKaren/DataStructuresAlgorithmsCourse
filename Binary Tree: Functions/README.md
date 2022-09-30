@@ -1,3 +1,12 @@
+# Binary Tree Functions
+
+
+class TreeNode():
+    def __init__(self, key):
+        self.key = key
+        self.right = None
+        self.left = None
+   
    def height(self):
         if self is None:
            return 0
