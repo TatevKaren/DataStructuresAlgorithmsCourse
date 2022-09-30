@@ -3,13 +3,15 @@
 
 
 
-   class TreeNode():
-   def __init__(self, key):
+
+   
+    class TreeNode():
+    def __init__(self, key):
         self.key = key
         self.right = None
         self.left = None
-   
-   def height(self):
+        
+    def height(self):
         if self is None:
            return 0
         return(1 + max(TreeNode.height(self.left), TreeNode.height(self.right)))
