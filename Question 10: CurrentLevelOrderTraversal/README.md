@@ -1,8 +1,8 @@
 # Current Level OrderTraversal Printing
 
 
-   class BSTNode():
-    def __init__(self, key):
+    class BSTNode():
+      def __init__(self, key):
         self.key = key
         self.left = None
         self.right = None
