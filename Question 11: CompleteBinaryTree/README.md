@@ -2,7 +2,7 @@
 
 
    
-   class Node:
+    class Node:
 
     # Constructor to create a new node
     def __init__(self, data):
@@ -10,9 +10,6 @@
         self.left = None
         self.right = None
 
-
-    # Given a binary tree, return true if the tree is complete
-    # else return false
     def isCompleteBT(root):
        # Base Case: An empty tree is complete Binary tree
        if root is None:
