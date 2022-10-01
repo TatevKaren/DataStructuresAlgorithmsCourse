@@ -1,7 +1,7 @@
 # Checking whether the Binary Tree is Complete
 
 
-class Node:
+  class Node:
 
     # Constructor to create a new node
     def __init__(self, data):
