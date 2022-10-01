@@ -25,8 +25,7 @@
             tempNode = queue.pop(0)  # Dequeue
             # Check if left child is present
             if (tempNode.left):
-                 # If we have seen a non-full node, and we see a node with non-empty left child, then the
-                 # given tree is not a complete binary tree
+                 # If we have seen a non-full node, and we see a node with non-empty left child, then the given tree is not a complete binary tree
                  
                  if flag == True:
                      return False
@@ -40,9 +39,7 @@
         # Check if right child is present
         if (tempNode.right):
 
-            # If we have seen a non full node, and we
-            # see a node with non-empty right child, then
-            # the given tree is not a complete BT
+            # If we have seen a non full node, and we see a node with non-empty right child, then the given tree is not a complete BT
             if flag == True:
                 return False
             # Enqueue right child
