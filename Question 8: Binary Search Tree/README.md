@@ -121,20 +121,22 @@ Getting Sorted list of key, value pairs of BST
 
 ## 9: Making Balanced Binary Search Tree
         def make_balanced_bst(data, lo = 0, hi = None, parent = None):
-             # the highest level of the tree
+             
+             # if no highest level of the tree
              if hi is None:
-                 hi = len(data) - 1 # (last index of the data)
-             # if the hi is less than 0
+                 hi = len(data) - 1 
+             
+             # if the hi is less than 0 
              if lo > hi:
                  return None
-             # we want to determine the key of the root node of the tree, this is the mid position
+             
+             # the key of the root node of the tree, this is the mid position
              mid = (lo + hi) // 2
              # getting the key and the value of this mid position
              key, value = data[mid]
 
              # creating the tree from the node onwards
              root = BSTNode(key, value)
-
              root.parent = parent
              # left subtree recursively
              root.left = make_balanced_bst(data, lo, mid-1, root)
