@@ -1,3 +1,5 @@
+   # Hash Table in Python 
+   
    class HashTable():
     def __init__(self, data_list):
         self.data_list = data_list
