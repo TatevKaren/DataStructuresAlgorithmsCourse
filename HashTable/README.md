@@ -1,6 +1,6 @@
    # Hash Table in Python 
    
-   class HashTable():
+    class HashTable():
     def __init__(self, data_list):
         self.data_list = data_list
 
