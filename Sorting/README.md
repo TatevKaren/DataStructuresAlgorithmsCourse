@@ -31,3 +31,5 @@
          nums.insert(j+1, current)
      return(nums)
 
+## Devide and Conquer
+   
