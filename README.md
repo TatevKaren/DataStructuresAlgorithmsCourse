@@ -25,8 +25,9 @@
 - Question 3: Minimum Number of Rotations to get ordered list <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%203:%20MinNumRotations"> -> <a>
 - Question 4: Traversing Binary Tree <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/blob/main/Question%204:%20Traversing%20Binary%20Tree/Traversing%20Binary%20Tree.py">  <a>
 - Question 5: Minimum Depth of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%205:%20Min%20Depth%20of%20Tree"> -> <a>
-- Question 6:  Maximum Depth of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%206:%20Max%20Depth%20of%20Tree"> Python Code here -> <a>
-- Question 7: <a href = ""> Python Code here -> <a>
-- Question 8: <a href = ""> Python Code here -> <a>  
-- Question 9: <a href = ""> Python Code here -> <a>
-- Question 10: <a href = ""> Python Code here -> <a>  
+- Question 6:  Maximum Depth of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%206:%20Max%20Depth%20of%20Tree">-> <a>
+- Question 7: Height and Size of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%207:%20Height%20and%20Size%20of%20Binary%20Tree"> -> <a>
+- Question 8: Checking whether Binary Tree is Balanced and Making it Balanced<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%208:%20Binary%20Search%20Tree"> -> <a>  
+- Question 9: Diameter of Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%209:%20Diameter%20of%20Tree"> -> <a>
+- Question 10: Current Level Order Traversal <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2010:%20CurrentLevelOrderTraversal"> -> <a> 
+- Question 11: Checking Whether Binary Tree is Complete <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2011:%20CompleteBinaryTree"> -> <>
