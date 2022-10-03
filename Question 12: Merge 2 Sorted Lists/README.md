@@ -1,7 +1,7 @@
 # Merge 2 Sorted Lists
 
    def merge_sorted_lists(nums1, nums2):
-    # empty list to store results
+        # empty list to store results
     merged = []
     # pointers for the smallest elements of the list not yet visited
     i,j = 0,0
