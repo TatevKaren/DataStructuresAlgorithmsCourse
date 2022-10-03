@@ -36,7 +36,7 @@
   
   
  ## 2: Sorting 
- - Bubble Sort O(n^2)
+ - Bubble Sort (Time Complexity: O(n^2), Space Complexity: O(n))
 
  <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
 
