@@ -21,6 +21,8 @@
   
 <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Binary%20Tree:%20Functions"> Python Code here -> <a>
   
+ <br>
+
   
  ## 2: Sorting 
  - Bubble Sort (Time Complexity: O(n^2), Space Complexity: O(n))
@@ -31,6 +33,9 @@
 
 
      
+   
+<br>
+   
 ### Questions for Interview
 - Question 1: Getting The Right Card<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%201:%20Get%20the%20right%20card"> -> <a>
 - Question 2: Start and End Positions of Given Number<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%202"> -> <a>
