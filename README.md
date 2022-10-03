@@ -21,6 +21,16 @@
   
 <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Binary%20Tree:%20Functions"> Python Code here -> <a>
   
+  
+ ## 2: Sorting 
+ - Bubble Sort (Time Complexity: O(n^2), Space Complexity: O(n))
+ - Insertion Sort (Time Complexity: O(n^2))
+ - Divide & Conquer Merge Sort
+
+ <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
+
+
+     
 ### Questions for Interview
 - Question 1: Getting The Right Card<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%201:%20Get%20the%20right%20card"> -> <a>
 - Question 2: Start and End Positions of Given Number<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%202"> -> <a>
@@ -34,12 +44,3 @@
 - Question 10: Current Level Order Traversal <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2010:%20CurrentLevelOrderTraversal"> -> <a> 
 - Question 11: Checking Whether Binary Tree is Complete <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2011:%20CompleteBinaryTree"> -> <a>
 - Question 12: Merging two sorted lists <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2012:%20Merge%202%20Sorted%20Lists"> -><a>
-  
-  
- ## 2: Sorting 
- - Bubble Sort (Time Complexity: O(n^2), Space Complexity: O(n))
- - Insertion Sort (Time Complexity: O(n^2))
- - Divide & Conquer Merge Sort
-
- <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
-
