@@ -1,7 +1,6 @@
 # Merge 2 Sorted Lists
 
-   def merge_sorted_lists(nums1, nums2):
-        
+    def merge_sorted_lists(nums1, nums2):
         # empty list to store results
         merged = []
         
