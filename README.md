@@ -5,7 +5,7 @@
 - Find
 - Update
 - List All
-<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Binary%20Tree:%20Introduction"> -> <a>
+<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Binary%20Tree:%20Introduction"> Python Code -> <a>
 
 ## Binary Search Tree Function
 - height of the tree
@@ -14,6 +14,6 @@
 - preorder traversal
 - postorder traversal
   
-<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Binary%20Tree:%20Functions"> -> <a>
+<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Binary%20Tree:%20Functions"> Pytho Code -> <a>
 
   
