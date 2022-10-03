@@ -33,6 +33,7 @@
 - Question 9: Diameter of Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%209:%20Diameter%20of%20Tree"> -> <a>
 - Question 10: Current Level Order Traversal <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2010:%20CurrentLevelOrderTraversal"> -> <a> 
 - Question 11: Checking Whether Binary Tree is Complete <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2011:%20CompleteBinaryTree"> -> <a>
+- Question 12: Merging two sorted lists <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%2012:%20Merge%202%20Sorted%20Lists"> <a>
   
   
  ## 2: Sorting 
