@@ -37,5 +37,6 @@
   
  ## 2: Sorting 
  - Bubble Sort 
- - <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
+
+ <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
 
