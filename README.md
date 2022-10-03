@@ -36,7 +36,7 @@
   
   
  ## 2: Sorting 
- - Bubble Sort 
+ - Bubble Sort O(n^2)
 
  <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
 
