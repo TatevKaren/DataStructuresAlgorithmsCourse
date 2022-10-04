@@ -114,6 +114,11 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
 
 
 ## Quick Sort
+Since the Merge Sort has Space Complexity O(n) (it stores the arrays N time) we need a better way to sort the array without storing. The idea is to avoid making copys but instead adjust the variable start and end.
+- 1: If the array is empty or with 1 element return that
+- 2: Pick a random element from the list, (pivot)
+- 3: Partitioning: Reorder the list such that all the elements with values less than pivot come before the pivot and all the elements with values more than pivot come after the pivot
+- 4: The process is repeated recursively in left and right sides
 
     def partition(nums, start = 0, end = None):
         if end is None:
