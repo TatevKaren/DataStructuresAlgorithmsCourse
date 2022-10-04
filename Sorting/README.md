@@ -122,7 +122,7 @@ Since the Merge Sort has Space Complexity O(n) (it stores the arrays N time) we 
 
      
      
-     def partition(nums, start = 0, end = None):
+      def partition(nums, start = 0, end = None):
         if end is None:
             end = N-1
         # Initialize right and left pointers
