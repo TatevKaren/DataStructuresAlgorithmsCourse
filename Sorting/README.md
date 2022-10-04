@@ -94,4 +94,5 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
         sorted_nums = merge_sorted_lists(left_sorted, right_sorted)
         return sorted_nums
 
-   
+![1*nbyUbRHdgL-Ur5YayV1FJw](https://user-images.githubusercontent.com/76843403/193786939-3b99c92c-d2f3-46da-ac41-241a11efd782.png)
+
