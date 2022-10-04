@@ -77,7 +77,7 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
                       return result + nums1_tail +nums2_tail
 
 
-[1*xdBOp2NWJpNKpdvrtFfh7A](https://user-images.githubusercontent.com/76843403/193793012-d48d4a2f-39a3-4e8b-8279-91a6bac78f7d.png)
+![1*xdBOp2NWJpNKpdvrtFfh7A](https://user-images.githubusercontent.com/76843403/193793168-e5d47fe3-8ebf-4937-b72b-583ed2edfa79.png)
 
 
 <br>
