@@ -28,10 +28,12 @@
  - Bubble Sort (Time Complexity: O(n^2), Space Complexity: O(n))
  - Insertion Sort (Time Complexity: O(n^2))
  - Divide & Conquer Merge Sort (Time Complexity: O(nlogn))
+ - Quick Sort (Time Complexity: O(nlogn))
 
  <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Sorting"> Python Code here -> <a>
 
 
+## 3: Recursion and Dynamic Programming
      
    
 <br>
