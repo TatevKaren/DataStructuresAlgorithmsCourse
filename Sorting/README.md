@@ -120,7 +120,9 @@ Since the Merge Sort has Space Complexity O(n) (it stores the arrays N time) we 
 - 3: Partitioning: Reorder the list such that all the elements with values less than pivot come before the pivot and all the elements with values more than pivot come after the pivot
 - 4: The process is repeated recursively in left and right sides
 
-    def partition(nums, start = 0, end = None):
+     
+     
+     def partition(nums, start = 0, end = None):
         if end is None:
             end = N-1
         # Initialize right and left pointers
