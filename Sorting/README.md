@@ -90,7 +90,7 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
 - 4: Merge two sorted lists to get a single sorted list
 
 
-    def MergeSort(nums):
+      def MergeSort(nums):
         nums = list(nums)
         N = len(nums)
         
