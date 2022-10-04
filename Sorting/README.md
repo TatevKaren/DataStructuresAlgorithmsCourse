@@ -19,6 +19,8 @@ Buble sort is a simple way of sorting unsrted lists. The idea behind it is to go
 
     
 ## Insertion Sort
+Insertion Sorting is more optimal than Bubble Sort, and the idea behind it is to start from left and find the correct position of the element while keeping the initial portion of the list that is sorted. One by one we sort the rest of the elements of the list. Per element we are interested in the turning position where this element is larger than its left predecessor. Because this means that this element is larger than the rest of all the left already sorted elements. In this position is where we insert this element. 
+
     def InsertionSort(nums):
        # copying the list to not lose it during switcches
        nums = list(nums)
@@ -35,9 +37,21 @@ Buble sort is a simple way of sorting unsrted lists. The idea behind it is to go
          # inserting the current value right next to the element smaller than current value
          nums.insert(j+1, current)
      return(nums)
+     
+ 
+![insertionsort](https://user-images.githubusercontent.com/76843403/193775053-b6a505e7-6600-492b-9e3f-13701be91d28.png)
+
 
 
 ## Devide and Conquer: Merge Sort
+The idea behind Merge Sort is to devide the list into roughly two parts, sort them recursively and merge them back.
+
+- 1: If the input list is empty or contains just one element, it is already sorted. Return it
+- 2: If not, divide the list of numbers into roughly equal parts
+- 3: Sort each part recursively using the merge sort algorithm to get back two sorted lists
+- 4: Merge two sorted lists to get a single sorted list
+
+In order to perform Merge Sort, we need to first know how to merge two sorted lists. 
 
     def MergeSort(nums):
         nums = list(nums)
