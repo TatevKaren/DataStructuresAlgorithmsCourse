@@ -14,6 +14,9 @@ Buble sort is a simple way of sorting unsrted lists. The idea behind it is to go
             if nums[i] > nums[i+1]:
                 nums[i], nums[i+1] = nums[i+1], nums[i]
     return nums
+
+![bubble-short](https://user-images.githubusercontent.com/76843403/193773764-e1d21f32-6aac-4862-8763-7f511ae3c74a.png)
+
     
 ## Insertion Sort
     def InsertionSort(nums):
