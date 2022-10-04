@@ -41,7 +41,7 @@ Insertion Sorting is more optimal than Bubble Sort, and the idea behind it is to
  
 ![insertionsort](https://user-images.githubusercontent.com/76843403/193775053-b6a505e7-6600-492b-9e3f-13701be91d28.png)
 
-
+<br>
 
 ## Devide and Conquer: Merge Sort
 The idea behind Merge Sort is to devide the list into roughly two parts, sort them recursively and merge them back.
@@ -77,7 +77,12 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
                       return result + nums1_tail +nums2_tail
 
 
-### Merge Sort
+[1*xdBOp2NWJpNKpdvrtFfh7A](https://user-images.githubusercontent.com/76843403/193793012-d48d4a2f-39a3-4e8b-8279-91a6bac78f7d.png)
+
+
+<br>
+
+### Merge Sort!
 
 - 1: If the input list is empty or contains just one element, it is already sorted. Return it
 - 2: If not, divide the list of numbers into roughly equal parts
