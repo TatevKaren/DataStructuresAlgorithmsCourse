@@ -146,7 +146,7 @@ Since the Merge Sort has Space Complexity O(n) (it stores the arrays N time) we 
             return end
             
             
-    def QuickSort(nums, start = 0, end= None):
+     def QuickSort(nums, start = 0, end= None):
       N = len(nums)
       if N<=1:
         return nums
