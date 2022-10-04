@@ -114,13 +114,7 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
 
 
 ## Quick Sort
-
-   def QuickSort(nums, start = 0, end= None):
-    N = len(nums)
-    if N<=1:
-        return nums
-    
-    def partition(nums, start = 0, end = None):
+def partition(nums, start = 0, end = None):
         if end is None:
             end = N-1
         # Initialize right and left pointers
@@ -142,15 +136,22 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
             return l
         else:
             return end
+            
+            
+    def QuickSort(nums, start = 0, end= None):
+      N = len(nums)
+      if N<=1:
+        return nums
+   
 
-    if end is None:
-        # comping the list to not loos elements
-        nums = list(nums)
-        end = N-1
-    # position of the partition element
-    pivot = partition(nums, start, end)
-    # recursively quicksort left and right sides
-    QuickSort(nums, start, pivot-1)
-    QuickSort(nums, pivot+1, end)
-    return nums
+      if end is None:
+          # comping the list to not loos elements
+          nums = list(nums)
+          end = N-1
+      # position of the partition element
+      pivot = partition(nums, start, end)
+      # recursively quicksort left and right sides
+      QuickSort(nums, start, pivot-1)
+      QuickSort(nums, pivot+1, end)
+      return nums
 
