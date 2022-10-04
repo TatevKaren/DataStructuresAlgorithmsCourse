@@ -19,7 +19,7 @@ Buble sort is a simple way of sorting unsrted lists. The idea behind it is to go
 
     
 ## Insertion Sort
-Insertion Sorting is more optimal than Bubble Sort, and the idea behind it is to start from left and find the correct position of the element while keeping the initial portion of the list that is sorted. One by one we sort the rest of the elements of the list. Per element we are interested in the turning position where this element is larger than its left predecessor. Because this means that this element is larger than the rest of all the left already sorted elements. In this position is where we insert this element. 
+Insertion Sorting O(n^2) is more optimal than Bubble Sort, and the idea behind it is to start from left and find the correct position of the element while keeping the initial portion of the list that is sorted. One by one we sort the rest of the elements of the list. Per element we are interested in the turning position where this element is larger than its left predecessor. Because this means that this element is larger than the rest of all the left already sorted elements. In this position is where we insert this element. 
 
     def InsertionSort(nums):
        # copying the list to not lose it during switcches
@@ -44,7 +44,7 @@ Insertion Sorting is more optimal than Bubble Sort, and the idea behind it is to
 <br>
 
 ## Devide and Conquer: Merge Sort
-The idea behind Merge Sort is to devide the list into roughly two parts, sort them recursively and merge them back.
+The idea behind Merge Sort O(nlogn) is to devide the list into roughly two parts, sort them recursively and merge them back.
 ### Merging two sorted lists
 In order to perform Merge Sort, we need to first know how to merge two sorted lists. 
 - 1: check for the terminating conditions (one of the lists empty, or both)
@@ -110,4 +110,47 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
         return sorted_nums
 
 ![1*nbyUbRHdgL-Ur5YayV1FJw](https://user-images.githubusercontent.com/76843403/193786939-3b99c92c-d2f3-46da-ac41-241a11efd782.png)
+
+
+
+## Quick Sort
+
+   def QuickSort(nums, start = 0, end= None):
+    N = len(nums)
+    if N<=1:
+        return nums
+    
+    def partition(nums, start = 0, end = None):
+        if end is None:
+            end = N-1
+        # Initialize right and left pointers
+        l,r = start, end-1
+        # Iterate while they're apart
+        while r > l:
+            # Increment left pointer if number is less or equal to pivot
+            if nums[l] <= nums[end]:
+                l += 1
+            # Decrement right pointer if number is greater than pivot
+            elif nums[r] > nums[end]:
+                r -= 1
+            # Two out-of-place elements found, swap them
+            else:
+                nums[l], nums[r] = nums[r], nums[l]
+        # place pivot between the two parts
+        if nums[l] > nums[end]:
+            nums[l], nums[end] = nums[end], nums[l]
+            return l
+        else:
+            return end
+
+    if end is None:
+        # comping the list to not loos elements
+        nums = list(nums)
+        end = N-1
+    # position of the partition element
+    pivot = partition(nums, start, end)
+    # recursively quicksort left and right sides
+    QuickSort(nums, start, pivot-1)
+    QuickSort(nums, pivot+1, end)
+    return nums
 
