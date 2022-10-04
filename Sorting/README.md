@@ -114,7 +114,8 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
 
 
 ## Quick Sort
-def partition(nums, start = 0, end = None):
+
+    def partition(nums, start = 0, end = None):
         if end is None:
             end = N-1
         # Initialize right and left pointers
