@@ -45,40 +45,50 @@ Insertion Sorting is more optimal than Bubble Sort, and the idea behind it is to
 
 ## Devide and Conquer: Merge Sort
 The idea behind Merge Sort is to devide the list into roughly two parts, sort them recursively and merge them back.
+### Merging two sorted lists
+In order to perform Merge Sort, we need to first know how to merge two sorted lists. 
+- 1: check for the terminating conditions (one of the lists empty, or both)
+- 2: keep track of the position of the elements we want to compare pairwise i, j
+- 3: While loop to compare the smallest elements and append the smallest of the two to result array (Incremenet the pointer for the next comparison)
+- 4: Add to the merged list the remaining elements of thw two lists
+ 
+            def merge_two_sorted_lists(nums1, nums2):
+                N1, N2 = len(nums1), len(nums2)
+                result = []
+                if N1 == 0 and N2 != 0:
+                      return nums2
+                elif N1 != 0 and N2 == 0:
+                      return nums1
+                elif N1 == 0 and N2== 0:
+                      return []
+                else:
+                     i, j = 0, 0
+                     # inserting the smaller element in the result and move to next smallest element
+                     while i < N1 and j <N2:
+                          if nums1[i] <= nums2[j]:
+                              result.append(nums1[i])
+                              i += 1
+                          elif:
+                              result.append(nums2[j])
+                              j += 1
+                      # get the remaining parts (of these lists is going to be empty)
+                      nums1_tail = nums1[i:]
+                      nums2_tail = nums2[j:]
+                      return result + nums1_tail +nums2_tail
+
+
+### Merge Sort
 
 - 1: If the input list is empty or contains just one element, it is already sorted. Return it
 - 2: If not, divide the list of numbers into roughly equal parts
 - 3: Sort each part recursively using the merge sort algorithm to get back two sorted lists
 - 4: Merge two sorted lists to get a single sorted list
 
-In order to perform Merge Sort, we need to first know how to merge two sorted lists. 
 
     def MergeSort(nums):
         nums = list(nums)
         N = len(nums)
         
-        # 0: function for merging two sorted lists
-        def merge_sorted_lists(nums1, nums2):
-            # empty list to store results
-            merged = []
-            # pointers for the smallest elements of the list not yet visited
-            i, j = 0, 0
-            N1, N2 = len(nums1), len(nums2)
-            # loop through the two lists
-            while i < N1 and j < N2:
-                # inserting the smaller element in the result and move to next smallest element
-                if nums1[i] <= nums2[j]:
-                    merged.append(nums1[i])
-                    i += 1
-                else:
-                    merged.append(nums2[j])
-                    j += 1
-            # get the remaining parts (of these lists is going to be empty)
-            nums1_tail = nums1[i:]
-            nums2_tail = nums2[j:]
-            result = merged + nums1_tail + nums2_tail
-            return result
-
         # 1: terminating condition
         if N <=1:
             return nums
