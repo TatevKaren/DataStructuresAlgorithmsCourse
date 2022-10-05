@@ -25,16 +25,22 @@
 
 
 # Merge 2 Sorted List Nodes (objects)
-        class ListNode:
-           def __init__(self, val=0, next=None):
-                self.val = val
-                self.next = next
+Steps
+- 1: create an empty ListNode where we will store the findal merged list and its tail
+- 2: while L1 and L2 are non empty, we will iterate through these two list oobjects
+- 3: if l1 value is smaller or equal to the l2 value, we will insert the l1 value in the tail.next and we will update the l1 (l1 = l1.next) to move to the next element
+- 4: otherwise, l2 value is smaller, then we insert l2 into the tail and update the l2 (l2 = l2.next)
+- 5: we update the tail (tail = tail.next)
+- 6: we look at the remainings of l1 and l2, if l1 is not empty this should be added to the tail.next = l1
+- 7: return the merge.next 
 
         class Solution:
               def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> [ListNode]:
+              
                   # creating empty list
                   merge = ListNode()
                   tail = merge
+                  
                   # while both lists are not empty and existing
                   while l1 and l2:
                        if l1.val <= l2.val:
@@ -54,9 +60,9 @@
                        tail.next = l2
                    return merge.next
 
-list1 = ListNode(1, ListNode(2, ListNode(4, None)))
-list2 = ListNode(1, ListNode(3, ListNode(4, None)))
+       list1 = ListNode(1, ListNode(2, ListNode(4, None)))
+       list2 = ListNode(1, ListNode(3, ListNode(4, None)))
 
-print(Solution.mergeTwoLists(list1, list2))
+       print(Solution.mergeTwoLists(list1, list2))
 
 
