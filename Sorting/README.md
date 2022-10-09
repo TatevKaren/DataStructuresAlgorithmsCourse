@@ -82,7 +82,7 @@ In order to perform Merge Sort, we need to first know how to merge two sorted li
 
 <br>
 
-### Merge Sort!
+### Merge Sort
 
 - 1: If the input list is empty or contains just one element, it is already sorted. Return it
 - 2: If not, divide the list of numbers into roughly equal parts
