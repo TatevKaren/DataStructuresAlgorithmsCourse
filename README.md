@@ -45,7 +45,7 @@
 - Question 1: Getting The Right Card<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%201:%20Get%20the%20right%20card"> -> <a>
 - Question 2: Start and End Positions of Given Number<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%202"> -> <a>
 - Question 3: Minimum Number of Rotations to get ordered list <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%203:%20MinNumRotations"> -> <a>
-- Question 4: Traversing Binary Tree <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/blob/main/Question%204:%20Traversing%20Binary%20Tree/Traversing%20Binary%20Tree.py">  <a>
+- Question 4: Traversing Binary Tree <a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/blob/main/Question%204:%20Traversing%20Binary%20Tree/Traversing%20Binary%20Tree.py"> -> <a>
 - Question 5: Minimum Depth of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%205:%20Min%20Depth%20of%20Tree"> -> <a>
 - Question 6:  Maximum Depth of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%206:%20Max%20Depth%20of%20Tree">-> <a>
 - Question 7: Height and Size of Binary Tree<a href = "https://github.com/TatevKaren/DataStructuresAlgorithmsCourse/tree/main/Question%207:%20Height%20and%20Size%20of%20Binary%20Tree"> -> <a>
