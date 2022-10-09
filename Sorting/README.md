@@ -1,7 +1,7 @@
 # Sorting
 
 ## Bubble Sort
-Buble sort is a simple way of sorting unsrted lists. The idea behind it is to go though each element of the list and compare it to its right next element and swap it if this left element is larger than its next element. The process is inefficient and has high time complexity O(n^2) because this process (for loop and swapping) needs to happen N times. So, we have two forloops.
+Buble sort is a simple way of sorting unsorted lists. The idea behind it is to go though each element of the list and compare it to its right next element and swap it if this left element is larger than its next element. The process is inefficient and has high time complexity O(n^2) because this process (for loop and swapping) needs to happen N times. So, we have two forloops.
 
     def bubble_sort(nums):
       # copying the list to avoid changing it
