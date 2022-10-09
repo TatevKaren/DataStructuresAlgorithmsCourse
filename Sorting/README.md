@@ -43,7 +43,7 @@ Insertion Sorting O(n^2) is more optimal than Bubble Sort, and the idea behind i
 
 <br>
 
-## Devide and Conquer: Merge Sort
+## Divide and Conquer: Merge Sort
 The idea behind Merge Sort O(nlogn) is to devide the list into roughly two parts, sort them recursively and merge them back.
 ### Merging two sorted lists
 In order to perform Merge Sort, we need to first know how to merge two sorted lists. 
