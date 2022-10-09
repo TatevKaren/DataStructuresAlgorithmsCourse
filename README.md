@@ -12,7 +12,7 @@
 
 ### Binary Search Tree Function
 - height of the tree
-- sizeof the tree
+- size of the tree
 - inorder traversal
 - preorder traversal
 - postorder traversal
